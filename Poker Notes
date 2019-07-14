@@ -7,7 +7,7 @@
  - Bet / (Pot + Bet)
  - Ex 1. $100 / ($100 + $100) = 1/2 = 50%
  - Ex 2. $300 / ($100 + $300) = 3/4 = 75%
-   - Only call with the top 25% of your range
+   - Only call with the top 25% of your range, in theory.
 
 #### Equity (roughly)
  - Flop: # of outs * 4
@@ -43,12 +43,13 @@
 #### Big Blind
 - Has a mandatory bet to put in, incentivizing them to play, but still needs to be careful since they're in the worst position at the table.
 - "Defend" with a wider range of hands since you already have a portion of the bet in. Good pot odds regardless.
+  - Even though we are defending with a wider range, we should play cautiously after the flop still, since we are out of position.
 
 ![Big Blind Range](images/Big_Blind_range.png)
 
 #### Small Blind
-- Also has a mandatory bet to put in, incentivizing them to play, but still needs to be careful since they're in the worst position at the table.
-- Still play with a tight range.
+- Also has a mandatory bet to put in, incentivizing them to play, but still needs to be careful since they're in the worst position at the table and they only have to put in half the bet the big blind does.
+- Play with a tighter range then the big blind.
 
 ![Small Blind Range](images/SB_range.png)
 
@@ -56,9 +57,9 @@
 # Hand Ranges and Board Texture
 - Want to focus on putting players on a range of hands. Play "My range vs. my opponents range"
 - Build a mental 'database' of the range of hands your opponent plays
-- As betting increases, their range becomes more polarized.
+- As the number of bets increases (3-bet, 4-bet, etc.), their range becomes more polarized.
 - Keep your range balanced, don't always make the same move every time.
-- The person with the *range advantage* should be 'driving the action'.
+- The person with the ***range advantage*** should be 'driving the action'.
  - Bet more often than you check, but not always to keep range balanced.
 - Factor player tendencies into range advantage.
   - Is the player a tighter player or a looser player in the position they're in?
@@ -78,13 +79,17 @@
 - Continuation bet, or, if you were the pre-flop aggressor, 'continuing the story' that you have a strong hand and betting on the flop.
 - Don't always c-bet, and don't never c-bet.
 - C-bet less into multiple people, especially when you miss the flop. Much easier to get one person to fold than four or five.
-- C-bet more often on flops where you have *range advantage*
+- C-bet more often on flops where you have ***range advantage***
 - C-betting gives you more than one way to win the pot, fold equity, and actually hitting.  
 - __Don't C-bet on autopilot__
 - Potentially adjust c-betting frequency on body language and tells.
 - Think a few moves ahead.
-  - What happens if he check raises?
-  - What are you gonna do on the flop if he calls?
+  - If you raise preflop:
+    - What happens if he 3-bets?
+    - What are you gonna do on the flop if he calls?
+  - If you c-bet on the flop:
+    - What do you do if he c-bets or check raises?
+    - What do you do on the turn if he calls?
 - If you're thinking about c-betting and can't come up with a couple good reasons, chances are you probably shouldn't.
 
 ###### Ex. 1
