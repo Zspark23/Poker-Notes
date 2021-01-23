@@ -7,7 +7,6 @@
  - Bet / (Pot + Bet)
  - Ex 1. $100 / ($100 + $100) = 1/2 = 50%
  - Ex 2. $300 / ($100 + $300) = 3/4 = 75%
-   - Only call with the top 25% of your range, in theory.
    - Only call with the top 25% of your range
 
 #### Equity (roughly)
@@ -44,7 +43,6 @@
 #### Big Blind
 - Has a mandatory bet to put in, incentivizing them to play, but still needs to be careful since they're in the worst position at the table.
 - "Defend" with a wider range of hands since you already have a portion of the bet in. Good pot odds regardless.
-  - Even though we are defending with a wider range, we should play cautiously after the flop still, since we are out of position.
 
 ![Big Blind Range](images/Big_Blind_range.png)
 
@@ -58,7 +56,6 @@
 # Hand Ranges and Board Texture
 - Want to focus on putting players on a range of hands. Play "My range vs. my opponents range"
 - Build a mental 'database' of the range of hands your opponent plays
-- As the number of bets increases (3-bet, 4-bet, etc.), their range becomes more polarized.
 - As betting increases, their range becomes more polarized.
 - Keep your range balanced, don't always make the same move every time.
 - The person with the *range advantage* should be 'driving the action'.
