@@ -8,12 +8,11 @@
  - Ex 1. $100 / ($100 + $100) = 1/2 = 50%
  - Ex 2. $300 / ($100 + $300) = 3/4 = 75%
    - Only call with the top 25% of your range, in theory.
+   - Only call with the top 25% of your range
 
 #### Equity (roughly)
  - Flop: # of outs * 4
  - Turn: # of outs * 2
-
----
 
 # Position
 
@@ -50,8 +49,8 @@
 ![Big Blind Range](images/Big_Blind_range.png)
 
 #### Small Blind
-- Also has a mandatory bet to put in, incentivizing them to play, but still needs to be careful since they're in the worst position at the table and they only have to put in half the bet the big blind does.
-- Play with a tighter range then the big blind.
+- Also has a mandatory bet to put in, incentivizing them to play, but still needs to be careful since they're in the worst position at the table.
+- Still play with a tight range.
 
 ![Small Blind Range](images/SB_range.png)
 
@@ -60,8 +59,9 @@
 - Want to focus on putting players on a range of hands. Play "My range vs. my opponents range"
 - Build a mental 'database' of the range of hands your opponent plays
 - As the number of bets increases (3-bet, 4-bet, etc.), their range becomes more polarized.
+- As betting increases, their range becomes more polarized.
 - Keep your range balanced, don't always make the same move every time.
-- The person with the ***range advantage*** should be 'driving the action'.
+- The person with the *range advantage* should be 'driving the action'.
  - Bet more often than you check, but not always to keep range balanced.
 - Factor player tendencies into range advantage.
   - Is the player a tighter player or a looser player in the position they're in?
@@ -81,58 +81,29 @@
 - Continuation bet, or, if you were the pre-flop aggressor, 'continuing the story' that you have a strong hand and betting on the flop.
 - Don't always c-bet, and don't never c-bet.
 - C-bet less into multiple people, especially when you miss the flop. Much easier to get one person to fold than four or five.
-- C-bet more often on flops where you have ***range advantage***
-- C-betting gives you more than one way to win the pot, fold equity, and actually hitting.  
-- __Don't C-bet on autopilot__
-- Potentially adjust c-betting frequency on body language and tells.
-- Think a few moves ahead.
-  - If you raise preflop:
-    - What happens if he 3-bets?
-    - What are you gonna do on the flop if he calls?
-  - If you c-bet on the flop:
-    - What do you do if he c-bets or check raises?
-    - What do you do on the turn if he calls?
-- If you're thinking about c-betting and can't come up with a couple good reasons, chances are you probably shouldn't.
 
 ###### Ex. 1
-- Hero raises UTG with AKs, two MP players call, button calls, and both blinds call. Flop comes T52 rainbow.
-  - C-bet less in this position because there are so many people behind, the chances of getting them all to fold is unlikely, as well as the chance at least one of them has a ten is pretty high.
+  - Hero raises UTG with AKs, two MP players call, button calls, and both blinds call. Flop comes T52 rainbow.
+    - C-bet less in this position because there are so many people behind, the chances of getting them all to fold is unlikely, as well as the chance at least one of them has a ten is pretty high.
 
 ###### Ex. 2
-- Hero raises UTG with AKs, only the button calls, flop is J97 two hearts.
-  - C-bet less in this position since the button smashes that flop more often than you do.
+  - Hero raises UTG with AKs, only the button calls, flop is J97 two hearts.
+    - C-bet less in this position since the button smashes that flop more often than you do.
 
 ---
-# The 5 Ways You Destroy Your Tournament Results
+# Recommended Raise Sizes
+|Stack Depth      | When Folded to | When Facing a Limper | When Facing a Raise                          | When Facing a 3-bet |
+|   :---:         |     :---:      |        :---:         |         :---:                                |        :---:        |
+|60bbs or More    |2.75bbs         |4.5bbs                |3x In position (IP), 4x Out of position (OOP) |2.75x IP, 3.25x OOP  |
+|35bbs to 60bbs   |2.5bbs          |4.25bbs               |2.7x IP, 3.2x OOP                             |2.5x IP, 3x OOP      |
+|22bbs to 35bbs   |2.25bbs         |4bbs                  |2.7x IP, 3.2x OOP                             |All-in               |
+|12bbs to 22bbs   |2bbs            |3.5bbs                |All-in                                        |All-in               |
+|Fewer than 12bbs |All-in          |All-in                |All-in                                        |All-in               |
 
-###### 1. Calling down with weak top pairs and second pairs for no reason
-- The average person only triple barrel bluffs 28% of the time, and that number only goes down.
-- The average player also calls a triple barrel bet 8 times out of 10.
-- Need a lot of evidence to call a triple barrel, or an extremely strong hand.
-- If you don't know what to do, fold.
 
-###### 2. Betting the turn and river as a bluff
-- Tournament players hate folding pairs on the turn or the river.
-- Bluffing on the turn and river just does not work that often.
+- Pot sized raise: 3x last bet + any additional money in the pot.
+  - How much is a pot sized raise when someone raises to 4bbs and someone else calls?
+    - 3 x 4 + 4 + .5 + 1 + 1 = 18.5bbs
 
-###### 3. Moving all-in to combat an unlikely threebet bluff
-- Accept the loss that has the least variance.
-  - If you're late in a tourney and you get 3 bet with a semi-strong hand, just fold. If all the options suck, just fold.
-- The average player 3-bets ~7% of the time, and most of them are all-in shoves.
-
-###### 4. Pot controlling when a value bet is more profitable
-- When the flop comes, think about what cards are bad for you, if there are a lot, and you hit the flop, you should probably value bet while you can.
-  - If they fold, good.
-  - If they call, and you have a good middle pair like A8o on a Q83 board, you're beating most pairs, which is what they're probably calling with
-  - If they raise on that same board, you can probably assume you're beat.
-- The average player check raises or raises the flop ~10% of the time
-
-###### 5. Not value betting rivers enough, or with proper sizings
-- Don't just blindly shove all in when you drill the nuts on the river after having fired two bullets.
-  - Don't get greedy, bet half pot or 1/3 pot, whatever you think he can call with top pair or a strong middle pair, because that's what he probably has.
-- Let them call a small bet, so they can just muck the hand they called with.
-  - They will probably call unless given an exceptionally good reason not to.
-
----
-# Quotes
-*Without data, you're just another person with an opinion* -- Alex Fitzgerald
+- If a raise would put in more than 30% of your stack, go all-in instead.
+- Add one "unit" for each additional caller.
