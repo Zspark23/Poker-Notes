@@ -13,6 +13,15 @@
  - Flop: # of outs * 4
  - Turn: # of outs * 2
 
+#### Implied Odds
+ - (Amount remaining in Stacks + Pot) / Call Amount
+
+#### Minimum Defense Frequency
+ - 1 - opponents bet / (opponents bet + pot)
+
+#### Stack-to-Pot Ratio
+  - effective stack / money in pot
+
 # Position
 
 - Out of position = Defense
@@ -88,7 +97,8 @@
     - C-bet less in this position since the button smashes that flop more often than you do.
 
 ---
-# Recommended Raise Sizes
+# Intro & Fundamentals
+### Recommended Raise Sizes
 |Stack Depth      | When Folded to | When Facing a Limper | When Facing a Raise                          | When Facing a 3-bet |
 |   :---:         |     :---:      |        :---:         |         :---:                                |        :---:        |
 |60bbs or More    |2.75bbs         |4.5bbs                |3x In position (IP), 4x Out of position (OOP) |2.75x IP, 3.25x OOP  |
@@ -98,9 +108,171 @@
 |Fewer than 12bbs |All-in          |All-in                |All-in                                        |All-in               |
 
 
-- Pot sized raise: 3x last bet + any additional money in the pot.
-  - How much is a pot sized raise when someone raises to 4bbs and someone else calls?
-    - 3 x 4 + 4 + .5 + 1 + 1 = 18.5bbs
+  - Pot sized raise: 3x last bet + any additional money in the pot
+    - How much is a pot sized raise when someone raises to 4bbs and someone else calls?
+      - 3 x 4 + 4 + .5 + 1 + 1 = 18.5bbs
 
 - If a raise would put in more than 30% of your stack, go all-in instead.
 - Add one "unit" for each additional caller.
+- 3-bet to a smaller size when in position and larger when out of position.
+
+---
+# Preflop
+## More than 60bbs
+###### When you're folded to
+- Don't open limp.
+- When your opponents call or 3-bet often, raise tighter.
+- When your opponents play too tight or rarely 3-bet, raise wider.
+- Don't play shit hands.
+- Generally raise to 3.5bbs in the SB if you're going to.
+
+##### When your raise gets 3-bet
+- The button should 3-bet to a smaller size than the BB.
+  - As your opponent uses a bigger re-raise size, you should fold more often.
+- 4-bet more when out of position, call more when in position
+  - When you're in position, you want to keep the pot small.
+  - When you're out of position, you want to inflate the pot to take away your opponents positional advantage
+- You want to have a very polarized 4-betting range.
+  - Use small Ax hands and Kx hands as 4-bet bluffs because you have blockers, your opponents will fold more often.
+- Against people who play straightforward, fold a decent portion of your range.
+- If the person is a maniac, defend with a decent portion of your range.
+- Hands that tend to be dominated have reverse implied odds
+  - As stacks get shorter, these hands become more playable.
+  - These hands should be folded to a 3-bet more frequently, or used as a 4-bet bluff.
+    - JQs, QTs, KJs, etc.
+- Ex.1
+  - You raise from LJ to 2.75bbs with AJo and the button 3-bets to 9bbs out of his 75bbs effective stack.
+    - Against a tight player, always fold.
+    - Against a maniac, always call or 4-bet.
+    - Call with small and medium pocket pairs
+    - Call with suited connectors against a maniac but fold against a tight player.
+
+###### Minimum Defense Frequency
+- Mathematical % that you must defend to keep your opponents from blindly profiting from pure aggression.
+  - AKA: how to prevent from getting "run over" by bluffs
+- MDF = 1 - opponents bet / (opponents bet + pot)
+  - Make sure to account for blinds and antes
+- Strive to over-defend when possible.
+- If your opponent is tight, defend tighter.
+- If your opponent is loose, defend looser.
+
+###### Facing Limpers
+- Facing one limper:
+  - Two types of limpers:
+    - Tricky, who like to limp with some premium hands, to trap
+      - Most will limp/3-bet with only the best hands
+      - Most are only capable of being tricky from early position
+      - Limp behind with hands that flop well
+      - Raise or fold with hands that don't flop well
+      - Raising with the intention of folding to a 3-bet is fine if their range contains marginal hands
+    - Straightforward, limps hands thought to be not good enough to raise
+      - Raise with normal preflop raising range, maybe wider in some cases
+      - Usually are limping with junk because they would have raised with good hands.
+      - Raise a strong linear range of strong pairs, middle pairs, and big cards that don't mind being heads up
+      - When you get limp/3-bet get out of the way.
+      - Fine to limp behind with hands that flop well
+- Facing multiple limpers:
+  - Is the first limper tricky or straightforward?
+  - Play a bit tighter than you normally would, unless all the limpers are weak
+  - Raising to large amounts may be justified
+  - Bluffing is still an option if you think they will fold
+- When your limp gets raised:
+  - Hands with reverse implied odds should fold almost always
+  - If your opponent raises small, call with hands that flop well
+  - If your opponent raises large, fold hands that flop poorly
+
+###### Facing a Preflop Raise (When someone raises, and it folds to you)
+- What is your opponents range?
+- How likely are you to get 3-bet?
+- How many players are likely to see the flop?
+- How will your opponent to your aggression?
+- Facing an early position raise:
+  - Assume they have a decently strong range
+  - Bluff a little less then charts recommend.
+  - If you 3-bet and you get 4-bet, assume they have an extremely strong hand
+  - If they limp often, assume their raises are strong.
+- Facing a middle position raise
+  - Still playing a polarized range
+- Facing a late position raise
+  - People sometimes tend to raise/defend too many hands from late position
+- Playing from the blinds
+  - The small blind:
+    - You want to play heads up whenever possible
+    - You want to 3-bet more when:
+      - When the BB plays well
+      - When the initial raiser plays timid
+      - Against wide ranges
+  - The big blind:
+    - Aim to see a lot of flops
+    - Defend wider as raises get smaller
+    - Defender tighter against really large raises
+
+###### Facing a preflop raise and a call
+- Strategy will change based on opponents tendencies
+  - Tight, Aggressive (TAG)
+  - Tight, Passive (Nit)
+  - Loose, Aggressive (LAG)
+  - Loose, Passive (Calling Station)
+- Against tight ranges:
+  - RFI TAG:
+    - Play fundamentally sound poker
+    - Just follow the 75bb charts
+  - RFI Nit
+    - Fold unsuited big cards that are often dominated
+    - Call more implied odds hands
+    - 3-bet bluff much less often
+  - RFI LAG:
+    - Fold less often, widen range
+    - Call more unsuited big cards that are ahead
+    - 3-bet bluff more, polarized range
+  - RFI Calling Station:
+    - Fold less often, widen range
+    - 3-bet unsuited big cards that are ahead
+    - 3-bet for value more often, linear range
+- Usually use a pot sized bet for all raises.
+- From the big blind:
+  - Getting a good "price" and "closing action" are not great reasons to defend your big blind multi-way
+    - You will realize your equity poorly
+    - Postflop playability is important
+    - Don't play junky offsuit cards
+    - Avoid playing hands that make mostly marginal hands
+- How to continue from the big blind:
+  - Continue as if you were on the button
+    - Call with good suited cards
+    - 3-bet bluff big unsuited cards
+    - 3-bet for value with your best hands
+
+###### When you call and get 3-bet
+- What are the ranges?
+- How many people are likely to see the flop?
+- Are you closing the action
+  - Will you get back 4-bet?
+  - You can play a little looser, if you're closing the action. Can't get 4-bet
+- What are your pot odds?
+
+###### Facing a raise and a 3-bet
+- You should have ***no calling range*** <75bbs
+- You are going to get 4-bet often enough to kill your implied odds.
+- Play exceptionally tight
+  - You should not have a 4-bet bluffing range
+  - 3-bet from EP: Usually only QQ+
+  - 3-bet from LP: Usually only JJ+
+
+###### Facing a preflop 4-bet
+- Defending against a 4-bet is too often a huge leak
+- Fold the vast majority of hands
+- Usually only getting it in with JJ+ and AKs
+- Against more aggressive opponents, defend wider
+- If your range is polarized, just continue with the top of your range
+  - Big pairs, big suited cards are good candidates for 4-bet bluff
+- If your range is linear, fold the worse offsuit hands
+
+
+## 35bbs - 60bbs
+###### When folded to
+- Generally when your SPR decreases, your standards for going all-in decrease
+  - You're not risking as much, so you get to be wrong more often
+- Follow GTO charts, unless opponents make clear mistakes
+- Most deep stack concepts will still apply with 35-60bbs
+- Positional advantage matters a little less as you get shallower stacked
+- Raise more from out of position, raise less from in position
